@@ -5,7 +5,7 @@ from openai import OpenAI
 
 token = os.environ["GITHUB_TOKEN"]
 endpoint = "https://models.github.ai/inference"
-model_name = "openai/gpt-4o-mini"
+model_name = "openai/gpt-4o"
 
 client = OpenAI(
     base_url=endpoint,
