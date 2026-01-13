@@ -16,7 +16,7 @@ client = OpenAI(
 def get_joke_explanation(joke):
 
     response = client.chat.completions.create(
-    model="gpt-4o-mini",
+    model="gpt-4o",
         messages=[
             {"role": "user", "content": f"Explain the following joke: {joke}"}
         ]
